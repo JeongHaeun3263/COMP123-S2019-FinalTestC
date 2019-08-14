@@ -61,12 +61,12 @@ namespace COMP123_S2019_FinalTestC.Views
         {
             FirstNameDisplayLabel.Text = FirstNameDataLabel.Text;
             LastNameDisplayLabel.Text = LastNameDataLabel.Text;
-            StrengthDisplayLabel.Text = StrengthDataLabel.Text;
-            DexterityDisplayLabel.Text = DexterityDataLabel.Text;
-            EnduranceDisplayLabel.Text = EnduranceDataLabel.Text;
-            IntellectDisplayLabel.Text = IntellectDataLabel.Text;
-            EducationDisplayLabel.Text = EducationDataLabel.Text;
-            SocialStandingDisplayLabel.Text = SocialStandingDataLabel.Text;
+            StrengthDisplayLabel.Text = "Strength: " + StrengthDataLabel.Text;
+            DexterityDisplayLabel.Text = "Dexterity: " + DexterityDataLabel.Text;
+            EnduranceDisplayLabel.Text = "Endurance: " + EnduranceDataLabel.Text;
+            IntellectDisplayLabel.Text = "Intellect: " + IntellectDataLabel.Text;
+            EducationDisplayLabel.Text = "Education: " + EducationDataLabel.Text;
+            SocialStandingDisplayLabel.Text = "Social: " + SocialStandingDataLabel.Text;
             Skill1DisplayLabel.Text = Skill1DataLabel.Text;
             Skill2DisplayLabel.Text = Skill2DataLabel.Text;
             Skill3DisplayLabel.Text = Skill3DataLabel.Text;
