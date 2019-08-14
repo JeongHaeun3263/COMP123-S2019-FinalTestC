@@ -16,6 +16,7 @@ namespace COMP123_S2019_FinalTestC.Objects
     {
         // Identity
         public Identity Identity { get; set; }
+        public Skill skill { get; set; }
         
         // characteristics 
         public string Strength { get; set; }
@@ -29,7 +30,7 @@ namespace COMP123_S2019_FinalTestC.Objects
         List<Skill> Skills;
 
         // constructor 
-        CharacterPortfolio()
+        public CharacterPortfolio()
         {
             this.Skills = new List<Skill>();
             this.Identity = new Identity();
